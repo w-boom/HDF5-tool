@@ -3,7 +3,7 @@ from cx_Freeze import setup, Executable
 # 定义可执行文件及其相关的参数
 executables = [
     Executable(
-        script="HDF5Tool.py",  
+        script="hdf5_tool.py",  
         base="Win32GUI", 
         target_name="HDF5Tool.exe", 
     )
